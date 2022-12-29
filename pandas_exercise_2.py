@@ -3,5 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-item_1 = pd.Series([1,3,5,6,8])
-print(item_1)
+titanic = pd.read_csv("train.csv")
+print(titanic)
+titanic.info()
+titanic.describe()
