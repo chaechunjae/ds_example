@@ -1,5 +1,6 @@
 beautifulsoup4
 dash
+ipywidgets
 matplotlib
 npformat
 numpy
@@ -9,4 +10,5 @@ plotly
 requests
 seaborn
 selenium
+tqdm
 xlrd
